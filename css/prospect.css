@@ -10,10 +10,8 @@ body {
 }
 
 #response-wrapper {
-  width: 600px;
-  height: 200px;
   text-align: center;
-  
+
   position: absolute;
   top:0;
   bottom: 0;
