@@ -57,6 +57,4 @@ var responses = ["Naah bitch",
                   "If this is some type of midlife crisis, buy a car instead.",
                   "\“Join a cult,\” they said.\n\“It’ll be fun,\” they said.",
                   "Cults do have the best koolaid. \nWe recommend you drink ours. \nOr Ben’s cooler water."
-
-
 ];
