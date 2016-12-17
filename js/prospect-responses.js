@@ -68,5 +68,12 @@ var responses = ["Naah bitch",
                   "I don\’t think you quite understand what prospecting means.",
                   "If you want to be abused, just get a government job instead.",
                   "Of course you can prospect!<br>-ively kiss my ass.",
-                  "No, Man Camp prospects are not the gay porn stars you\’d expect.<br>Yes, there will still be man ass."
+                  "No, Man Camp prospects are not the gay porn stars you\’d expect.<br>Yes, there will still be man ass.",
+                  "If your father had just worn a damn condom we wouldn’t be having this conversation."
+                  "It’s not me, it’s you.<br>Bitch.",
+                  "Jesus, just take the hint. We don’t want you here.",
+                  "Mullets were more attractive than you are.",
+                  "Man Camp: Just a bunch of hot chicks stealing shit. <br> Notably, they won’t even steal you though.",
+                  "Gurls rule<br>Bois drool<br>And none of you fuckers are invited in.",
+                  "The only one who likes you less than we do is your mother and the goldfish you keep forgetting to feed."
 ];
