@@ -7,27 +7,23 @@
   <!-- Stylesheet -->
   <link rel="stylesheet" type="text/css" href="css/prospect.css" />
 
+  <!-- Responses are in this file -->
   <script type="text/javascript" src="js/prospect-responses.js"></script>
+
   <script>
 
-    //All possible responses
     //Get a random response
     function getResponse(){
-
       var response = responses[Math.floor(Math.random() * responses.length)];
       document.getElementById("response").innerHTML = response;
-
     }
 
-    //Function that is run when
+    //Function that is run when the page is loaded
     function init(){
-
       getResponse();
-
     }
 
     document.addEventListener("DOMContentLoaded", init);
-
 
   </script>
 
