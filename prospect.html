@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Prosprect</title>
+  <meta charset="utf-8" />
+
+  <script>
+
+    //All possible responses
+    var responses = ["Naah bitch", "Don't even think about it", "You? Really?", "Hahaha... ha. /n No",];
+
+    //Get a random response
+    function getResponse(){
+
+      var response = responses[Math.floor(Math.random() * responses.length)];
+      document.getElementById("response").innerHTML = response;
+
+    }
+
+    //Function that is run when
+    function init(){
+
+      getResponse();
+
+    }
+
+    document.addEventListener("DOMContentLoaded", init);
+
+  </script>
+
+</head>
+<body>
+
+  <div id="response-wrapper">
+
+    <p id="response"></p>
+
+  </div>
+
+</body>
+</html>
