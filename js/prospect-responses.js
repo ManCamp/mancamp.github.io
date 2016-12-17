@@ -69,7 +69,7 @@ var responses = ["Naah bitch",
                   "If you want to be abused, just get a government job instead.",
                   "Of course you can prospect!<br>-ively kiss my ass.",
                   "No, Man Camp prospects are not the gay porn stars you\’d expect.<br>Yes, there will still be man ass.",
-                  "If your father had just worn a damn condom we wouldn’t be having this conversation."
+                  "If your father had just worn a damn condom we wouldn’t be having this conversation.",
                   "It’s not me, it’s you.<br>Bitch.",
                   "Jesus, just take the hint. We don’t want you here.",
                   "Mullets were more attractive than you are.",
