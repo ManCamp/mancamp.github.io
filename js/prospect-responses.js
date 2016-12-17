@@ -75,5 +75,12 @@ var responses = ["Naah bitch",
                   "Mullets were more attractive than you are.",
                   "Man Camp: Just a bunch of hot chicks stealing shit. <br> Notably, they won’t even steal you though.",
                   "Gurls rule<br>Bois drool<br>And none of you fuckers are invited in.",
-                  "The only one who likes you less than we do is your mother and the goldfish you keep forgetting to feed."
+                  "The only ones who like you less than we do is your mother and that goldfish you keep forgetting to feed.",
+                  "You are why we can't have nice things.",
+                  "And so the final gate to hell was unlocked.",
+                  "You now have an obligation to entertain me, or else I'll entertain myself. And trust me, no one wants that.",
+                  "Sorry, we're trying to keep it classy.",
+                  "Whoops, all our prospect funds were apparently spent on cooler water. Try again next year?"
+                
+              
 ];
