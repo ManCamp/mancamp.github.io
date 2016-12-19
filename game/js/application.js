@@ -9,8 +9,9 @@ window.requestAnimationFrame(function () {
         "img/Ben.png",
         "img/Carrie.png",
         "img/2Wendy.png",
+        "img/Jenny.png"
     ];
-    
+
     for(var i = 0; i < imageList.length; i++ )
     {
         var imageObject = new Image();
