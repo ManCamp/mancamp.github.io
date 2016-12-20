@@ -27,7 +27,7 @@ var responses = ["Naah bitch",
                   "You definitely have something better to do with your time than to click this link.",
                   "Sorry, I can\’t let you prospect. I need some way to assert my superiority and exclusiveness.",
                   "If you want to prospect, please follow these steps: <br>1. Don\’t.",
-                  "If you want to prospect, please follow these steps: <br>1. Walk across fire. <br>2. Take 50 lashes. <br>3. Buy Kirk whiskey. <br> 4. ??? 5. Fuck off.",
+                  "If you want to prospect, please follow these steps: <br>1. Walk across fire. <br>2. Take 50 lashes. <br>3. Buy Kirk whiskey. <br> 4. ??? <br> 5. Fuck off.",
                   "Please try again. <br> We pinky promise it\’ll work this time.",
                   "If you spent as much time flossing your teeth as you do on this website, you might actually be pretty enough to join.",
                   "Sorry, only non-cool kids allowed.",
@@ -75,12 +75,13 @@ var responses = ["Naah bitch",
                   "Mullets were more attractive than you are.",
                   "Man Camp: Just a bunch of hot chicks stealing shit. <br> Notably, they won’t even steal you though.",
                   "Gurls rule<br>Bois drool<br>And none of you fuckers are invited in.",
-                  "The only ones who like you less than we do is your mother and that goldfish you keep forgetting to feed.",
+                  "The only ones who like you less than we do are your mother and that goldfish you keep forgetting to feed.",
                   "You are why we can't have nice things.",
                   "And so the final gate to hell was unlocked.",
                   "You now have an obligation to entertain me, or else I'll entertain myself. And trust me, no one wants that.",
                   "Sorry, we're trying to keep it classy.",
-                  "Whoops, all our prospect funds were apparently spent on cooler water. Try again next year?"
-                
+                  "Whoops, all our prospect funds were apparently spent on cooler water. Try again next year?",
+                  "The magic eight ball says<br>*shake shake*<br>\"Fuck off.\"",
+                  "My dog is more Man Camp than you."
               
 ];
