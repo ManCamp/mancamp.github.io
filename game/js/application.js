@@ -9,7 +9,10 @@ window.requestAnimationFrame(function () {
         "img/Ben.png",
         "img/Carrie.png",
         "img/2Wendy.png",
-        "img/Jenny.png"
+        "img/Jenny.png",
+        "img/Eden.png",
+        "img/Banana.png",
+        "img/Monkey.png"
     ];
 
     for(var i = 0; i < imageList.length; i++ )
