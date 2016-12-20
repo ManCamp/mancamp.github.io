@@ -4,9 +4,37 @@
   <title>Man Camp</title>
   <meta charset="utf-8" />
 
+  <!-- Stylesheet -->
+  <link rel="stylesheet" type="text/css" href="css/homepage.css" />
+
+  <!-- Scripts -->
+  <script src="js/jquery-3.1.1.min.js"></script>
+
+  <script>
+
+    //The document ready event
+    $(function(){
+
+
+      $("#home-bg").click(swapImage);
+      var bg = 1;
+
+    })
+
+    function swapImage(){
+      if(bg == 1){
+        $("#home-bg").fadeTo('medium', 0);
+      }
+    }
+
+  </script>
+
 </head>
 <body>
 
+  <img id="home-bg" src="images/img-homepage/homepage.png" />
+
+  <!--
   <p>There's going to be something pretty rad here soon.</p>
 
   <ul>
@@ -37,6 +65,13 @@
   <p>
     <a href="game/index.html">Game</a>
   </p>
+
+  <footer class="page-footer">
+
+    <p class="footer-copyright">Copyright Eden Elmore &amp; Pilvi Rajala</p>
+
+  </footer>
+-->
 
 </body>
 </html>
