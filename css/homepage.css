@@ -7,7 +7,31 @@ html, body {
 
 img#home-bg {
   width: 100%;
+  z-index: 12;
 }
+
+
+.svg-container {
+	display: inline-block;
+	position: relative;
+	width: 100%;
+  height: auto;
+	padding: 0;
+	vertical-align: middle;
+	overflow: hidden;
+  z-index: 66;
+}
+
+.svg-content {
+	display: inline-block;
+	position: absolute;
+  padding: 0;
+	top: 0;
+	left: 0;
+}
+
+
+
 
 
 footer.page-footer {
