@@ -8,7 +8,7 @@ window.requestAnimationFrame(function () {
         "img/Kirk.png",
         "img/Carrie.png",
         "img/2Wendy.png",
-        "img/Brian.png"
+        "img/Brian.png",
         "img/Jenny.png",
         "img/Eden.png",
         "img/Banana.png",
