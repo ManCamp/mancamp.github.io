@@ -15,6 +15,16 @@
     //The document ready event
     $(function(){
 
+      // Preload background images
+      preload([
+          'images/img-homepage/homepage-adults.png',
+          'images/img-homepage/homepage-bastards.png',
+          'images/img-homepage/homepage-ferals.png',
+          'images/img-homepage/homepage-game.png',
+          'images/img-homepage/homepage-rockets.png',
+          'images/img-homepage/homepage-prospect.png',
+      ]);
+
       $("#prospect").mouseenter(function(){
         $("#home-bg").attr("src", "images/img-homepage/homepage-prospect.png");
       });
@@ -70,6 +80,15 @@
     function swapbackhome(){
       $("#home-bg").attr("src", "images/img-homepage/homepage.png");
     }
+
+    function preload(arrayOfImages) {
+      $(arrayOfImages).each(function(){
+        $('<img/>')[0].src = this;
+        // Alternatively you could use:
+        // (new Image()).src = this;
+        });
+    }
+
 
   </script>
 
