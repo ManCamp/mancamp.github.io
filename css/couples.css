@@ -1,0 +1,24 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #fff;
+  color: #000; /* Font colour */
+  text-align: center;
+}
+
+div.photos {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#carrie-img {
+
+}
+
+#ben-image {
+
+}
