@@ -16,13 +16,11 @@
     $(function(){
 
       $("#prospect").mouseenter(function(){
-        //$("#home-bg").attr("src", "images/img-homepage/homepage.png");
-        //TODO
+        $("#home-bg").attr("src", "images/img-homepage/homepage-prospect.png");
       });
 
       $("#prospect").mouseleave(function(){
-        //swapbackhome();
-        //TODO
+        swapbackhome();
       });
 
       $("#rockets").mouseenter(function(){
@@ -57,6 +55,14 @@
       $("#adults").mouseleave(function(){
         //swapbackhome();
         //TODO
+      });
+
+      $("#games").mouseenter(function(){
+        $("#home-bg").attr("src", "images/img-homepage/homepage-game.png");
+      });
+
+      $("#games").mouseleave(function(){
+        swapbackhome();
       });
 
 
