@@ -17,28 +17,27 @@
     //Get a random response
     function getResponse(){
 
-      if(clicks == 1){
+      if(clicks >= 0){
         $("#try-again-button").text("TRY AGAIN");
-        positionButton();
+        //positionButton();
       }
 
       var response = responses[Math.floor(Math.random() * responses.length)];
       document.getElementById("response").innerHTML = response;
     }
 
+    /* NOT CURRENTLY USED
     function positionButton(){
-      var dWidth = $( document ).width();
-      var bWidth = $("#try-again-button").width();
-      var leftPos = (dWidth / 2) - (bWidth / 2);
+      var dWidth = $( window ).width();
+      var bWidth = $("#try-again-button").width() / 2;
+      var leftPos = (dWidth / 2) - bWidth;
 
       $("#try-again-button").offset({left : leftPos});
 
-    }
+    }*/
 
     //Function that is run when the page is loaded
     $(function(){
-
-      positionButton();
 
       $("#try-again-button").click(getResponse);
 
@@ -46,14 +45,15 @@
         clicks++;
       });
 
+      //positionButton();
+      $("#try-again-button").css('opacity', '1');
+
     })
 
   </script>
 
 </head>
 <body>
-
-
 
     <div id="response-wrapper">
 

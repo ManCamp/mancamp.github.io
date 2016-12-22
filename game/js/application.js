@@ -2,7 +2,7 @@
 window.requestAnimationFrame(function () {
   new GameManager(4, KeyboardInputManager, HTMLActuator, LocalStorageManager);
 });
- d
+ 
     var imageList = [
         "img/Ben.png",
         "img/Kirk.png",

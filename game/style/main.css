@@ -60,7 +60,7 @@ h1.title {
 .score-container, .best-container { /* TODO Modify */
   position: relative;
   display: inline-block;
-  background: #bbada0;
+  background: #999999; /* Original #bbada0; */
   padding: 15px 25px;
   font-size: 25px;
   height: 25px;
@@ -607,7 +607,7 @@ hr {
 
 .restart-button {
   display: inline-block;
-  background: #600; /* Button colour, original: #8f7a66 */ /* TODO Modify */
+  background: #999999; /* Button colour, original: #8f7a66 */ /* TODO Modify */
   border-radius: 3px;
   padding: 0 20px;
   text-decoration: none;
