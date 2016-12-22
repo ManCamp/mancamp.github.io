@@ -1,16 +1,16 @@
 /* Further styling for page about Rockets */
 
-body {
-  background-color: black;
-  color: white;
-}
-
 div.photos {
   margin-top: -20px;
+  margin-right: -75px;
 }
 
-#first-wrapper, #second-wrapper {
-  display: inline-block;
+#first-name {
+  margin-left: -100px;
+}
+
+#second-name {
+  margin-right: -200px;
 }
 
 #first-name p {

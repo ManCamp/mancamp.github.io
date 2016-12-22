@@ -19,10 +19,12 @@ div.photos {
   display: inline-block;;
   width: 80%;
   margin: auto;
-  margin-top: 50px;
-  margin-right: -50px;
 
   position: relative;
+}
+
+#first-wrapper, #second-wrapper {
+  display: inline-block;
 }
 
 #first-name, #second-name {
@@ -34,11 +36,11 @@ div.photos {
 }
 
 #first-name {
-  margin-left: -100px;
+  /*margin-left: -100px;*/
 }
 
 #second-name {
-  margin-right: -200px;
+  /*margin-right: -200px;*/
 }
 
 #surname {

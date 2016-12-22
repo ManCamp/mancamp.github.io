@@ -10,11 +10,69 @@
   <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet"> <!-- Wendy's font -->
   <link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet"> <!-- Kirk's font -->
 
-  <!-- Scripts -->
+  <!-- Stylesheets -->
+  <link rel="stylesheet" type="text/css" href="../../css/couples.css" />
+  <link rel="stylesheet" type="text/css" href="../../css/ferals.css" />
 
+  <!-- Scripts -->
+  <script src="../../js/jquery-3.1.1.min.js"></script>
+  <script src="../../js/couples.js"></script>
+  <script>
+
+    //Document ready event
+    $(function(){
+
+      animations(
+        "../../images/img-people/img-ferals/LineWendy-white.png", //firstLine
+        "../../images/img-people/img-ferals/ColorWendy.png", //firstColor
+        //"../../images/img-people/img-ferals/ColorWendy-white.png", //firstColor
+
+        "../../images/img-people/img-ferals/LineKirk-white.png", //secondLine
+        "../../images/img-people/img-ferals/ColorKirk.png" //secondColor
+        //"../../images/img-people/img-ferals/ColorKirk-white.png" //secondColor
+      );
+
+    })
+
+  </script>
 
 </head>
 <body>
-  <p>Page about Kirk &amp; Wendy</p>
+
+  <div class="content-wrapper">
+
+    <div class="photos">
+
+      <div id="first-wrapper">
+
+        <div id="first-name">
+          <p>B.P.</p>
+        </div>
+
+        <a href="Wendy.html">
+          <img id="first-img" src="../../images/img-people/img-ferals/LineWendy-white.png" height="525"/>
+        </a>
+      </div>
+
+      <div id="second-wrapper">
+
+        <a href="Kirk.html">
+          <img id="second-img" src="../../images/img-people/img-ferals/LineKirk-white.png" height="525"/>
+        </a>
+
+        <div id="second-name">
+          <p>World's Worst</p>
+        </div>
+
+      </div>
+
+    </div> <!-- div: photos -->
+
+    <div id="surname">
+      <p>Ferals</p>
+    </div>
+
+  </div style="clear:both;">
+
 </body>
 </html>
