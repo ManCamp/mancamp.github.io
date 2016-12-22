@@ -1,6 +1,8 @@
 /* Further styling for page about Rockets */
 
-
+div.photos {
+  margin-top: 0;
+}
 
 #carrie-wrapper, #ben-wrapper {
   display: inline-block;
@@ -13,3 +15,6 @@
 #ben-image {
 
 }
+
+/* Ben's font: font-family: 'Schoolbell', cursive; */
+/* Carrie's font: font-family: 'Princess Sofia', cursive; */
