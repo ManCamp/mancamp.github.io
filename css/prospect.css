@@ -10,31 +10,37 @@ body {
 }
 
 #response-wrapper {
+  z-index: 1;
   text-align: center;
   position: absolute;
-  top: 50%;
+  top: 30%;
   left: 50%;
-  transform:translate(-50%,-50%);
+  transform:translate(-50%,-30%);
 
   margin: auto;
+
 }
 
 #response {
   color: white;
   font-size: 50px;
-  /*text-align: center;*/
 }
 
 #try-again {
   z-index: 14;
+  position: absolute;
+  height: 100%;
   width: 100%;
-  position: relative;
-  margin: 0;
-  margin-bottom: 50px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 #try-again-button {
+  position: absolute;
+  bottom: 80px;
 
+  padding: 20px;
+  font-size: 25px;
+  border: 5px white solid;
+  color: white;
+  background-color: black;
+  font-family: 'Times New Roman', serif;
 }

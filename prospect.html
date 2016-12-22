@@ -9,37 +9,61 @@
 
   <!-- Responses are in this file -->
   <script type="text/javascript" src="js/prospect-responses.js"></script>
-
+  <script src="js/jquery-3.1.1.min.js"></script>
   <script>
+
+    var clicks = 0;
 
     //Get a random response
     function getResponse(){
+
+      if(clicks == 1){
+        $("#try-again-button").text("TRY AGAIN");
+        positionButton();
+      }
+
       var response = responses[Math.floor(Math.random() * responses.length)];
       document.getElementById("response").innerHTML = response;
     }
 
-    //Function that is run when the page is loaded
-    function init(){
-      getResponse();
+    function positionButton(){
+      var dWidth = $( document ).width();
+      var bWidth = $("#try-again-button").width();
+      var leftPos = (dWidth / 2) - (bWidth / 2);
+
+      $("#try-again-button").offset({left : leftPos});
+
     }
 
-    document.addEventListener("DOMContentLoaded", init);
+    //Function that is run when the page is loaded
+    $(function(){
+
+      positionButton();
+
+      $("#try-again-button").click(getResponse);
+
+      $("#try-again-button").click(function(){
+        clicks++;
+      });
+
+    })
 
   </script>
 
 </head>
 <body>
 
-  <div id="response-wrapper">
 
-    <p id="response"></p>
 
-    <div id="try-again">
-      <button id="try-again-button">Try again</button>
+    <div id="response-wrapper">
+
+      <p id="response">TRYING TO PROSPECT?</p>
+
     </div>
 
-  </div>
-
+    <div id="try-again">
+      <button id="try-again-button">GET RESULT</button>
+    </div>
 
 
 </body>
