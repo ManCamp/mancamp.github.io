@@ -1,20 +1,27 @@
 /* Further styling for page about Rockets */
 
-div.photos {
-  margin-top: 0;
+body {
+  background-color: black;
+  color: white;
 }
 
-#carrie-wrapper, #ben-wrapper {
+div.photos {
+  margin-top: 0;
+
+}
+
+#first-wrapper, #second-wrapper {
   display: inline-block;
 }
 
-#carrie-img {
-
+#first-name p {
+  font-family: 'Princess Sofia', cursive;
+  font-size: 70px;
+  opacity: 0;
 }
 
-#ben-image {
-
+#second-name p {
+  font-family: 'Schoolbell', cursive;
+  font-size: 70px;
+  opacity: 0;
 }
-
-/* Ben's font: font-family: 'Schoolbell', cursive; */
-/* Carrie's font: font-family: 'Princess Sofia', cursive; */

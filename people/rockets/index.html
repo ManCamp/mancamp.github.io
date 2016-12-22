@@ -8,32 +8,23 @@
   <link rel="stylesheet" type="text/css" href="../../css/rockets.css" />
 
   <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Schoolbell" rel="stylesheet"> <!-- Ben -->
-  <link href="https://fonts.googleapis.com/css?family=Princess+Sofia" rel="stylesheet"> <!-- Carrie -->
+  <link href="https://fonts.googleapis.com/css?family=Schoolbell" rel="stylesheet"> <!-- second -->
+  <link href="https://fonts.googleapis.com/css?family=Princess+Sofia" rel="stylesheet"> <!-- first -->
 
   <!-- Scripts -->
   <script src="../../js/jquery-3.1.1.min.js"></script>
-
+  <script src="../../js/couples.js"></script>
   <script>
 
     //Document ready event
     $(function(){
 
-      $("#ben-img").mouseenter(function(){
-        $("#ben-img").attr("src", "../../images/img-people/img-rockets/ColorBen.png");
-      });
-
-      $("#ben-img").mouseleave(function(){
-        $("#ben-img").attr("src", "../../images/img-people/img-rockets/LineBen.png");
-      });
-
-      $("#carrie-img").mouseenter(function(){
-        $("#carrie-img").attr("src", "../../images/img-people/img-rockets/ColorCarrie.png");
-      });
-
-      $("#carrie-img").mouseleave(function(){
-        $("#carrie-img").attr("src", "../../images/img-people/img-rockets/LineCarrie.png");
-      });
+      animations(
+        "../../images/img-people/img-rockets/LineCarrie-white.png", //firstLine
+        "../../images/img-people/img-rockets/ColorCarrie.png", //firstColor
+        "../../images/img-people/img-rockets/LineBen-white.png", //secondLine
+        "../../images/img-people/img-rockets/ColorBen.png" //secondColor
+      );
 
     })
 
@@ -42,28 +33,36 @@
 </head>
 <body>
 
-  <div class="photos">
+  <div class="content-wrapper">
 
-    <div id="first-name">
-      <p></p>
-    </div>
+    <div class="photos">
 
-    <div id="carrie-wrapper">
-      <a href="carrie.html">
-        <img id="carrie-img" src="../../images/img-people/img-rockets/LineCarrie.png" height="600"/>
-      </a>
-    </div>
-    <div id="ben-wrapper">
-      <a href="ben.html">
-        <img id="ben-img" src="../../images/img-people/img-rockets/LineBen.png" height="600"/>
-      </a>
-    </div>
+      <div id="first-wrapper">
 
-    <div id="second-name">
-      <p></p>
-    </div>
+        <div id="first-name">
+          <p>Special</p>
+        </div>
 
-  </div>
+        <a href="carrie.html">
+          <img id="first-img" src="../../images/img-people/img-rockets/LineCarrie-white.png" height="600"/>
+        </a>
+      </div>
+
+      <div id="second-wrapper">
+
+        <a href="ben.html">
+          <img id="second-img" src="../../images/img-people/img-rockets/LineBen-white.png" height="600"/>
+        </a>
+
+        <div id="second-name">
+          <p>Logic</p>
+        </div>
+
+      </div>
+
+    </div> <!-- div: photos -->
+
+  </div style="clear:both;">
 
 </body>
 </html>

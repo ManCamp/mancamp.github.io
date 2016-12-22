@@ -9,12 +9,34 @@ body {
   text-align: center;
 }
 
-div.photos {
-  margin-top: 50px;
-  margin-left: auto;
-  margin-right: auto;
+div.content-wrapper {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
 }
 
-div#firstname {
-  
+div.photos {
+  display: inline-block;;
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+  margin-right: -50px;
+
+  position: relative;
+}
+
+#first-name, #second-name {
+  display: inline-block;
+  z-index: 14;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#first-name {
+  margin-left: -100px;
+}
+
+#second-name {
+  margin-right: -200px;
 }
