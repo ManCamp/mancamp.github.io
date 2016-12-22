@@ -6,8 +6,7 @@ body {
 }
 
 div.photos {
-  margin-top: 0;
-
+  margin-top: -20px;
 }
 
 #first-wrapper, #second-wrapper {
@@ -24,4 +23,11 @@ div.photos {
   font-family: 'Schoolbell', cursive;
   font-size: 70px;
   opacity: 0;
+}
+
+#surname p {
+  font-family: 'Times New Roman', serif;
+  font-size: 80px;
+  margin-top: -10px;
+  font-weight: 700;
 }

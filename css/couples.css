@@ -4,8 +4,8 @@ html, body {
 }
 
 body {
-  background-color: #fff;
-  color: #000; /* Font colour */
+  background-color: black;
+  color: white;
   text-align: center;
 }
 
@@ -39,4 +39,8 @@ div.photos {
 
 #second-name {
   margin-right: -200px;
+}
+
+#surname {
+  width: 100%;
 }
