@@ -1,5 +1,90 @@
 /* */
 
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.content-wrapper {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+img#bastards-img {
+  z-index: 12;
+  height: 500px;
+}
+
+.photo-container {
+  display: inline-block;;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+
+  position: relative;
+}
+
+.svg-container {
+  height: 500px;
+
+	display: inline-block;
+
+	position: relative;
+	padding: 0;
+	vertical-align: middle;
+	overflow: hidden;
+  z-index: 66;
+
+}
+
+.svg-content {
+	display: inline-block;
+	position: absolute;
+  padding: 0;
+	top: 0;
+	left: 0;
+}
+
+#left-name, #right-name {
+  display: inline-block;
+  z-index: 14;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#left-name {
+
+}
+
+#right-name {
+  margin-right: -50px;
+}
+
 
 /* Jennie's font: font-family: 'Sacramento', cursive; */
-/* Brian's font: font-family: 'Permanent Marker', cursive; */ 
+/* Brian's font: font-family: 'Permanent Marker', cursive; */
+
+#left-name p {
+  font-family: 'Sacramento', cursive;
+  font-size: 60px;
+  opacity: 1;
+}
+
+#right-name p {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 55px;
+  opacity: 1;
+}
+
+#surname {
+  width: 100%;
+}
+
+#surname p {
+  font-family: 'Times New Roman', serif;
+  font-size: 80px;
+  /*margin-top: -10px;*/
+  font-weight: 700;
+}

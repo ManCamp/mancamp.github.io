@@ -1,6 +1,42 @@
 /* Styling for Eden & Piv page */
 
-
+body {
+  background-color: white;
+  color: black;
+}
 
 /* Eden's font: font-family: 'Yesteryear', cursive; */
 /* Piv's font: font-family: 'Over the Rainbow', cursive; */
+
+div.photos {
+  margin-top: 30px;
+  /*margin-right: -75px;*/
+}
+
+#first-name {
+  margin-left: -250px;
+}
+
+#second-name {
+  margin-left: 50px;
+  margin-top: -15px;
+}
+
+#first-name p {
+  font-family: 'Yesteryear', cursive;
+  font-size: 60px;
+  opacity: 0;
+}
+
+#second-name p {
+  font-family: 'Over the Rainbow', cursive;
+  font-size: 55px;
+  opacity: 0;
+}
+
+#surname p {
+  font-family: 'Times New Roman', serif;
+  font-size: 60px;
+  margin-top: 10px;
+  font-weight: 700;
+}

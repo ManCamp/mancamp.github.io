@@ -1,20 +1,78 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Eden &amp; Piv</title>
+  <title>"Adults"</title>
 </head>
-<body>
-  <p>Page about Eden and Piv</p>
 
-  <!-- Stylesheet -->
-
+  <!-- Stylesheets -->
+  <link rel="stylesheet" type="text/css" href="../../css/couples.css" />
+  <link rel="stylesheet" type="text/css" href="../../css/adults.css" />
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Yesteryear" rel="stylesheet"> <!-- Eden's font -->
   <link href="https://fonts.googleapis.com/css?family=Over+the+Rainbow" rel="stylesheet"> <!-- Piv's font -->
 
   <!-- Scripts -->
+  <script src="../../js/jquery-3.1.1.min.js"></script>
+  <script src="../../js/couples.js"></script>
+  <script>
 
+    //Document ready event
+    $(function(){
+
+      animations(
+        "../../images/img-people/img-adults/LineEden.png", //firstLine
+        //"../../images/img-people/img-adults/LineEden-white.png",
+        "../../images/img-people/img-adults/ColorEden.png", //firstColor
+        //"../../images/img-people/img-adults/ColorEden-white.png",
+
+        "../../images/img-people/img-adults/LinePiv.png", //secondLine
+        //"../../images/img-people/img-adults/LinePiv-white.png",
+        "../../images/img-people/img-adults/ColorPiv.png" //secondColor
+        //"../../images/img-people/img-adults/ColorPiv-white.png"
+      );
+
+    })
+
+  </script>
+
+</head>
+<body>
+
+  <div class="content-wrapper">
+
+    <div class="photos">
+
+      <div id="first-wrapper">
+
+        <div id="first-name">
+          <p>Little Bastard</p>
+        </div>
+
+        <a href="eden.html">
+          <img id="first-img" src="../../images/img-people/img-adults/LineEden.png" height="450"/>
+        </a>
+      </div>
+
+      <div id="second-wrapper">
+
+        <a href="piv.html">
+          <img id="second-img" src="../../images/img-people/img-adults/LinePiv.png" height="450"/>
+        </a>
+
+        <div id="second-name">
+          <p>Swedish Fish</p>
+        </div>
+
+      </div>
+
+    </div> <!-- div: photos -->
+
+    <div id="surname">
+      <p>"Adults"</p>
+    </div>
+
+  </div style="clear:both;">
 
 </body>
 </html>
