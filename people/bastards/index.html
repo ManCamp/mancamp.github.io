@@ -17,9 +17,31 @@
   //Document ready event
     $(function(){
 
+      $("#jennie-area").mouseenter(function(){
+        $("#bastards-img").attr("src", "../../images/img-people/img-bastards/ColorJennie-white.png");
+        $("#left-name p").css('opacity', '1.0');
+      });
 
+      $("#jennie-area").mouseleave(function(){
+        swapback();
+        $("#left-name p").css('opacity', '0.0');
+      });
+
+      $("#brian-area").mouseenter(function(){
+        $("#bastards-img").attr("src", "../../images/img-people/img-bastards/ColorBrian-white.png");
+        $("#right-name p").css('opacity', '1.0');
+      });
+
+      $("#brian-area").mouseleave(function(){
+        swapback();
+        $("#right-name p").css('opacity', '0.0');
+      });
 
     })
+
+    function swapback(){
+      $("#bastards-img").attr("src", "../../images/img-people/img-bastards/LineBastards-white.png");
+    }
 
 
   </script>
@@ -33,26 +55,23 @@
       <p>Pixie Bitch</p>
     </div>
 
-    <div class="photo-container">
-
       <div class="svg-container">
 
-        <img id="bastards-img" src="../../images/img-people/img-bastards/ColorBastards.png"/>
+        <img id="bastards-img" src="../../images/img-people/img-bastards/LineBastards-white.png"/>
 
         <svg version="1.1" viewBox="0 0 1000 1000" preserveAspectRatio="xMinYMin meet" class="svg-content">
           <!--<image style="overflow:visible;" width="1000" height="1000" xlink:href="A85D43E04BA69923.png" ></image>-->
 
           <a href="jennie.html">
-            <rect id="jennie-area" x="311.2" y="155.4" class="st1" width="188.8" height="797.8" opacity="0.5"/>
+            <rect id="jennie-area" x="311.2" y="155.4" class="st1" width="188.8" height="797.8" opacity="0"/>
           </a>
           <a href="brian.html">
-            <rect id="brian-area" x="500" y="78.3" class="st2" width="209.6" height="895.2" opacity="0.5"/>
+            <rect id="brian-area" x="500" y="78.3" class="st2" width="209.6" height="895.2" opacity="0"/>
           </a>
 
         </svg>
       </div> <!-- SVG container -->
 
-    </div>
 
     <div id="right-name">
       <p>Lucky Bastard</p>

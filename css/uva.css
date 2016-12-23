@@ -19,7 +19,24 @@ body {
 }
 
 .uva-message {
-  font-size: 70px;
-  font-weight: 700;
+  font-family: serif;
   top: 50%;
+  text-align: center;
 }
+
+#big-msg {
+  font-size: 100px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+#small-msg {
+  font-size: 30px;
+  margin-top: 0;
+}
+
+/*
+<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+font-family: 'Gloria Hallelujah', cursive;
+*/
