@@ -1,0 +1,25 @@
+html, body {
+
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+.content-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.uva-message {
+  font-size: 70px;
+  font-weight: 700;
+  top: 50%;
+}
