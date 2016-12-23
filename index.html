@@ -87,11 +87,16 @@
         });
     }
 
+    $(window).on("load", function() {
+      $('#loading_wrap').remove();
+    });
 
   </script>
 
 </head>
 <body>
+
+  <div id='loading_wrap' style='position:fixed; height:100%; width:100%; overflow:hidden; top:0; left:0;'>Hold the fuck up</div>
 
   <!-- Background -->
   <div class="svg-container">
