@@ -1,0 +1,11 @@
+h1 {
+  font-family: 'Sacramento', cursive;
+  font-size: 50px;
+}
+
+.text-wrapper {
+  width: 40%;
+  left: 50%;
+  padding-right: 100px;
+  margin-top: 50px;
+}

@@ -35,14 +35,6 @@ div.photos {
   transform: translateY(-50%);
 }
 
-#first-name {
-  /*margin-left: -100px;*/
-}
-
-#second-name {
-  /*margin-right: -200px;*/
-}
-
 #surname {
   width: 100%;
 }
