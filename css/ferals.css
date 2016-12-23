@@ -33,3 +33,9 @@ div.photos {
   font-weight: 700;
   margin-bottom: 0;
 }
+
+#little-fish {
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+}
