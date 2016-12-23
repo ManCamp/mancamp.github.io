@@ -24,10 +24,15 @@ div.content-wrapper {
   width: 50%;
   text-align: center;
   left: 55%;
+  margin: auto 0;
 }
 
 .text-wrapper {
   width: 40%;
   left: 15%;
   margin-top: 80px;
+}
+
+h2 {
+  font-size: 20px;
 }

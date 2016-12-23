@@ -1,0 +1,15 @@
+h1 {
+  font-family: 'Caveat', cursive;
+  font-size: 60px;
+  text-align: center;
+}
+
+.text-wrapper {
+  width: 40%;
+  left: 15%;
+  margin-top: 30px;
+}
+
+.image-wrapper {
+  margin-top: 50px;
+}

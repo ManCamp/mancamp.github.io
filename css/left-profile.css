@@ -12,6 +12,7 @@ body {
 
 div.content-wrapper {
   width: 100%;
+  display: inline-flex;
 }
 
 .image-wrapper, .text-wrapper {
@@ -23,10 +24,15 @@ div.content-wrapper {
 .image-wrapper {
   width: 50%;
   text-align: center;
+  margin: auto 0;
 }
 
 .text-wrapper {
   width: 40%;
   left: 50%;
   padding-right: 100px;
+}
+
+h2 {
+  font-size: 20px;
 }
