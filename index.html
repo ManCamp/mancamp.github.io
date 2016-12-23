@@ -15,8 +15,6 @@
     //The document ready event
     $(function(){
 
-      window.setTimeout(removeLoading, 3000);
-
       // Preload background images
       preload([
           'images/img-homepage/homepage-adults.png',
@@ -89,21 +87,10 @@
         });
     }
 
-    function removeLoading(){
-      $('#loading_wrap').remove();
-    }
-
-    /*
-    $(window).on("load", function() {
-      $('#loading_wrap').remove();
-    });*/
-
   </script>
 
 </head>
 <body>
-
-  <div id='loading_wrap' style='position:fixed; height:100%; width:100%; overflow:hidden; top:0; left:0; z-index: 600'>Hold the fuck up</div>
 
   <!-- Background -->
   <div class="svg-container">
