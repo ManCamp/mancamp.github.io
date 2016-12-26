@@ -30,6 +30,26 @@ img#home-bg {
 	left: 0;
 }
 
+#photo-credit {
+  position: absolute;
+  bottom: 5px;
+  right: 50px;
+  z-index: 100;
+  font-size: 20px;
+  color: #fff;
+  font-family: sans-serif;
+  font-weight: 800;
+}
+
+#photo-credit a {
+  color: #000;
+  text-decoration: none;
+}
+
+#photo-credit a:hover {
+  color: #fff;
+  text-decoration: none;
+}
 
 
 
